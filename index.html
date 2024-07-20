@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Condensed:wght@400;700&display=swap"
+    />
+   
+</head>
+<body>
+    <header class="header">
+        <img class="logoAlura" src="img/logo.svg" alt="logoAlura">
+        
+    </header>
+    <main>
+     <div class="row">
+        <div class="column">
+          
+            <textarea id="inputText" placeholder="Ingresa el texto aquí..."></textarea>
+            <p>¡Solo letras minúsculas y sin acentos!</p>
+            <br>
+            <button id="encryptBtn" onclick="encryptText()">Encriptar</button>
+            <button id="decryptBtn" onclick="decryptText()">Desencriptar</button>
+        </div>
+        <div class="column" >
+            
+            <div id="outputContainer">
+            <img id="outputImage" src="img/ilustrapersonas@2x.png" alt="Imagen inicial">
+            <textarea id="outputText" readonly style="display: none;"></textarea>
+            <button id="copyBtn" onclick="copyText()" style="display: none;">Copiar Texto</button>    
+        </div>
+        </div>
+            
+        </section>
+        
+      
+    </main>
+
+    <div class="footer">
+        Desarrollado por July Alejandra Baldión
+       
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
