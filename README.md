@@ -14,6 +14,8 @@ i se reemplaza por imes
 a se reemplaza por ai
 o se reemplaza por ober
 u se reemplaza por ufat
+
+
 Desencriptar Texto
 La función decryptText toma el texto encriptado y realiza el proceso inverso, reemplazando las cadenas específicas por las vocales originales.
 
